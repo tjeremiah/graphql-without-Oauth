@@ -1,4 +1,75 @@
-.App {
+/* RESETS 
+======================================== */
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit
+}
+
+body {
+    margin: 20px 0;
+    padding: 0 20px;
+    line-height: 1;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #202020;
+    background-color: #fbfbfb;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smothing: grayscale;
+} 
+ /* Application
+ =======================================*/
+
+ .container {
+  display: flex;
+  max-width: 6000px;
+  margin: auto;
+  justify-content: space-between;
+  
+}
+
+.container p {
+  margin: 0;
+}
+
+.container .item_container {
+   width: 100%;
+   background-color: #fff;
+   background-clip: border-box;
+   border: 1px solid rgba(0, 0, 0, 0.125);
+   border-radius: 0.25rem;
+   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+
+.container .item_name {
+  background-color: #ecd018;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +106,6 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
