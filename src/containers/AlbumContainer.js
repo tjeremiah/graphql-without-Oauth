@@ -1,14 +1,15 @@
 import React from 'react'
 import { useQuery , gql } from '@apollo/client'
-import { Album } from '../components/Album'
+import { Album, Tracks } from '../components/Tracks'
 
 const ALL_ALBUMS = gql`
   query album_tracks {
    album_tracks {
       items {
        id
+       uri
        name
-      external_urls {
+       external_urls {
         spotify
       }
       artists {
@@ -32,7 +33,8 @@ export default function AlbumContainer () {
     if (error) return <p>Something went wrong</p>
     return (
         <div className="container">
-         {data.album_tracks.items && data.album_tracks.items.map(item => <Album key={item.id} item={item} /> )}
+         {data.album_tracks.items && data.album_tracks.items.map(item => <Tracks key={item.id} item={item}  /> )}
         </div>
     )
 }
+
