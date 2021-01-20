@@ -10,18 +10,7 @@ import { ArtistPopular } from './ArtistPopular'
 //     console.log('Something went wrong!', err);
 //   });
 // {
-//     "url": "https://api.spotify.com/v1/users/taurel107%3Fsi%3DZLaiimgsR--jLzOYOYHVIg/playlists",
-//     "raw_url": "https://api.spotify.com/v1/users/taurel107%3Fsi%3DZLaiimgsR--jLzOYOYHVIg/playlists",
-//     "method": "post",
-//     "headers": {
-//         "Accept": "application/json",
-//         "Content-Type": "application/json",
-//         "Authorization": "Bearer BQCztTL1tnT89hIdh3-rF9E217Jit_w31TziY7ArUiHWuA3PStgZ5CpV4aZwUSPOfqpFqKP391_8oLn9i49xTTmcFPl0BN4YXTKnL9mgiyNcyKU_3TxyYI4Qtrx5VyqR6lTi62LjcUfDZL92mmXBGNsRAUIU_uJUcSiStcevtVFN"
-//     },
-//     "data": {
-//         "{\"name\":\"New Playlist\",\"description\":\"New playlist description\",\"public\":false}": ""
-//     }
-// }
+
 
 
 // export function Album({item}) {
